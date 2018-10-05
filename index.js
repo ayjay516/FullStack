@@ -1,8 +1,6 @@
 function validateLunch(){
     var food = document.getElementById("lunchWeAte").value;
-    console.log(food);
-
-if (food === 'gyro') {
+   if (food === 'gyro') {
     alert("My stomach is full.");
 
 } else {
