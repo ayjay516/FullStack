@@ -1,7 +1,7 @@
-function validateLunch(food){
-    var food = document.getElementById("lunchWeAe").textContent;
+function validateLunch(){
+    var food = document.getElementById("lunchWeAe").value;
     console.log(food);
-    
+
 if (food === 'gyro') {
     alert("My stomach is full.");
 
