@@ -1,5 +1,5 @@
 function validateLunch(){
-    var food = document.getElementById("lunchWeAe").value;
+    var food = document.getElementById("lunchWeAte").value;
     console.log(food);
 
 if (food === 'gyro') {
